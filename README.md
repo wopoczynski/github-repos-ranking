@@ -1,4 +1,4 @@
-[![CI](https://github.com/wopoczynski/github-repos-ranking/actions/workflows/php.yml/badge.svg?branch=main)](https://github.com/wopoczynski/github-repos-ranking/actions/workflows/php.yml)
+[![CI](https://github.com/wopoczynski/github-repos-ranking/actions/workflows/php.yml/badge.svg)](https://github.com/wopoczynski/github-repos-ranking/actions/workflows/php.yml)
 
 # Github repos ranking
 
