@@ -15,5 +15,5 @@ jobs:
     - name: php-stan
       run: php vendor/bin/phpstan analyse -c phpstan.neon
       
-    - name: PHPUnit for Symfony
-      uses: chindit/actions-phpunit-symfony@master
+    - uses: pxgamer/phpunit-action@master
+    
