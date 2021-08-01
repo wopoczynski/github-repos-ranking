@@ -66,7 +66,7 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
-            "bin/phpunit install": "php-script",
+            "bin/phpunit": "php-script",
             "assets:install %PUBLIC_DIR%": "symfony-cmd"
         },
         "post-install-cmd": [
@@ -74,10 +74,7 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ],
-        "phpunit": {
-            "bin/phpunit install": "php-script"
-        }
+        ]
     },
     "conflict": {
         "symfony/symfony": "*"
