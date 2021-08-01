@@ -15,6 +15,6 @@ jobs:
     - name: php-stan
       run: php8.0 vendor/bin/phpstan analyse -c phpstan.neon
           
-    - name: php-unit
-      run: composer run-script phpunit
+#     - name: php-unit
+#       run: php8.0 bin/phpunit
     
