@@ -74,7 +74,10 @@
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
+        ],
+        "phpunit": {
+            "bin/phpunit install": "php-script"
+        }
     },
     "conflict": {
         "symfony/symfony": "*"
