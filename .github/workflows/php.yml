@@ -8,9 +8,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: php-actions/composer@v5
-
-    - name: Install dependencies
-      run: composer install
     
     - name: php-cs-fixer
       run: php vendor/bin/php-cs-fixer fix -v --using-cache=no --dry-run
