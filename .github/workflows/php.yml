@@ -10,10 +10,11 @@ jobs:
     - uses: php-actions/composer@v5
     
     - name: php-cs-fixer
-      run: php vendor/bin/php-cs-fixer fix -v --using-cache=no --dry-run
+      run: php8.0 vendor/bin/php-cs-fixer fix -v --using-cache=no --dry-run
       
     - name: php-stan
-      run: php vendor/bin/phpstan analyse -c phpstan.neon
-      
-    - uses: pxgamer/phpunit-action@master
+      run: php8.0 vendor/bin/phpstan analyse -c phpstan.neon
+          
+    - name: php-unit
+      run: php8.0 bin/phpunit 
     
