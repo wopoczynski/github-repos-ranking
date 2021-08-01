@@ -1,3 +1,5 @@
+[![CI](https://github.com/wopoczynski/github-repos-ranking/actions/workflows/php.yml/badge.svg?branch=main)](https://github.com/wopoczynski/github-repos-ranking/actions/workflows/php.yml)
+
 # Github repos ranking
 
 ## Simple project - fun with github api using symfony 5.3.x
